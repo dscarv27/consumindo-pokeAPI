@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Pokémon</title>
 </head>
 <body>
     <div class="container"> 
-        <h1>Quem é esse Pokémon?</h1>
+        <div class="hs">
+            <h2>Quem é esse Pokémon?</h2>
+            <h7>Estilizando e consumindo a PokeAPI com <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript</strong> para fazer consultas online</h7>
+        </div>
+        <hr>       
+        <div class="image">
+        <img src="img/pokemon-logo.png" />
+        </div>
+        <form class="group-form">
+            <label>Digite o nome ou número do Pokémon</label>
+            <input type="text" id="name" placeholder="EX: Pikachu ou 25" autocomplete="off" required />
+            <input type="submit" value="DESCOBRIR" />
+        </form>
+        <div id="imgPokemon">
+            <img src="img/quem-pokemon.webp" />
+        </div> 
+        <div id="content">
+            ...
+        </div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
